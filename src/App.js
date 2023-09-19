@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Page that lets us increase or decrease
+// how many Pokemon are on screen 
+// App component needs to:
+// - keep track of how many Pokemon to show 
+// - iterate over a single, D.R.Y modular Pokemon component 
+// - button to increase Pokemon count
+// - button to decrease Pokemon count 
+
+
+class App extends React.Component {
+  constructor(){
+    super();
+
+    // start with at least ONE pokemon on screen 
+    this.state = {
+      pokemonCount: 1
+    }
+  }
+
+  render(){
+    return(
+      <div>
+        <h1>Pokemon page</h1>
+      </div>
+    )
+  }
+
 }
 
 export default App;
