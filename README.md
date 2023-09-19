@@ -1,3 +1,11 @@
+# ReactJS events lesson
+
+Goals:
+- ReactJS events 
+	- compare to regular JS DOM events 
+	- syntax for usage 
+	- other cool DOM events (eg. ignore right-click menu)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
